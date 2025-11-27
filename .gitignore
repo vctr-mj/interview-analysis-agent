@@ -1,0 +1,12 @@
+# Entorno virtual
+venv/
+__pycache__/
+
+# Variables de entorno y secretos (NUNCA SUBIR ESTO)
+.env
+
+# Credenciales de Google (NUNCA SUBIR ESTO)
+*.json
+
+# Archivos del sistema
+.DS_Store
