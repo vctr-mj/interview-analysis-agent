@@ -1,12 +1,68 @@
-# Entorno virtual
-venv/
-__pycache__/
+# ==================================================
+# ARCHIVOS SENSIBLES - NUNCA SUBIR AL REPOSITORIO
+# ==================================================
 
-# Variables de entorno y secretos (NUNCA SUBIR ESTO)
+# Variables de entorno (contiene API keys)
 .env
 
-# Credenciales de Google (NUNCA SUBIR ESTO)
+# Credenciales de Google / cualquier servicio
 *.json
+!package.json
+!package-lock.json
 
-# Archivos del sistema
+# ==================================================
+# DATOS GENERADOS / PERSONALES
+# ==================================================
+
+# Output del agente (datos personales de entrevistas)
+output/
+
+# Logs y apuntes
+*.log
+apuntes.txt
+
+# Grabaciones de entrevistas
+*.mkv
+*.mp4
+*.mov
+*.avi
+*.mp3
+*.wav
+
+# ==================================================
+# PYTHON
+# ==================================================
+
+# Entorno virtual
+venv/
+.venv/
+env/
+
+# Cache de Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyo
+
+# Distribuciones
+*.egg-info/
+dist/
+build/
+
+# ==================================================
+# SISTEMA / IDE
+# ==================================================
+
+# macOS
 .DS_Store
+
+# Windows
+Thumbs.db
+desktop.ini
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
